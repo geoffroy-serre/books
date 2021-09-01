@@ -1,0 +1,10 @@
+author : List de string
+isbn13: string
+language: string
+pages : int
+publisher: string
+title: string
+categories: lsit string
+subtitle: string
+imagelinks: string
+prix: double

@@ -66,6 +66,7 @@ function searchResults(currentPage = 0) {
     } else {
       SEARCH_RESULT_SECTION.appendChild(BOOK_LIST_EL);
       data.items.forEach((item) => {
+        console.log(item);
         let isbn = 0;
         const BOOK = document.createElement('div');
         BOOK.classList.add('books-list_book');
